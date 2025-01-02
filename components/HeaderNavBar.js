@@ -5,6 +5,7 @@ import React from "react";
 
 function HeaderNavBar() {
     const {data:session} = useSession();
+
   return (
 
     <div className="flex items-center justify-between p-4">
